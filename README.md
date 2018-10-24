@@ -96,7 +96,7 @@ In every directory, there should be a README.md file, so that's what you will be
 1. Type in `touch README.md` in the command line. `touch` means to make a new file that you can type your code in. `README.md` is the file name. 
 2. Open your first-repo directory and go into the README.md file.
 3. Type in whatever you want; it could be "woigjmwaogw" or "Hello World!"
-4. type in ctrl + S to save your file
+4. Type in ctrl + S to save your file
 5. Go back to the command line and type in `git add README.md`. This adds the file to the staging area to be sent to Github. 
 6. Now type in `git commit -m "Create README file"`. `git commit -m` is a Git command to commit the changes that you made in the file. The text in the quoation marks has to be related to what you changed. 
 7. [Go back to github.com](https://github.com)
