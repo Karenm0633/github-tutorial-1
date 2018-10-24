@@ -72,13 +72,13 @@ computer.
 Now that you have a workspace and a SSH connection between Github and Cloud9, lets make your first repository.
 1. Be in the command line  
 ![command line](commandline.png)
-2. type in `cd ~/workspace` . `cd` stands for "change directory". So when you type in `cd ~/workspace` you are changing the directory that you are on, to the workspace which is just the primary directory where you will put all of your other directories into.
+2. Type in `cd ~/workspace` . `cd` stands for "change directory". So when you type in `cd ~/workspace` you are changing the directory that you are on, to the workspace which is just the primary directory where you will put all of your other directories into.
 
 3. Now type in `mkdir first-repo` . `mkdir` stands for "make directory" and if you can't tell, it makes a directory. Whatever we type after `mkdir` is a name. So in our case, `first-repo` is the name of the new directory we just made.
 
 4. Next `cd` into your newly made repository by typing in `cd first-repo`. 
 
-5. Finally type in `git init` . This command is from Git, and allows you to initialize Git into your repository so that you can use git commands in your directory.
+5. Finally, type in `git init` . This command is from Git, and allows you to initialize Git into your repository so that you can use git commands in your directory.
 
 ##### Error Handling
 ***Q:*** Oops, I accidently `git init` in the wrong directory! How do I remove Git from the repo?  
@@ -93,7 +93,7 @@ Now that you have a workspace and a SSH connection between Github and Cloud9, le
 
 #### Making a file in Cloud9 
 In every directory, there should be a README.md file, so that's what you will be making
-1. type in `touch README.md` in the command line. `touch` means to make a new file that you can type your code in. `README.md` is the file name. 
+1. Type in `touch README.md` in the command line. `touch` means to make a new file that you can type your code in. `README.md` is the file name. 
 2. Open your first-repo directory and go into the README.md file.
 3. Type in whatever you want; it could be "woigjmwaogw" or "Hello World!"
 4. type in ctrl + S to save your file
@@ -107,7 +107,7 @@ In every directory, there should be a README.md file, so that's what you will be
 12. Under the section "...or push an existing repository from the command line" , copy the `git remote add origin` command into your command line and press enter. Then copy and paste the `git push -u origin master` into your command line. These two commands create a connection between your new directory on Github and Cloud9 and pushes your file into your Github repository.
 
 ***Q:*** How do I know that I did this correct and my directory is actually connected to my Github directory?  
-***A:*** type in `git remote -v` into the command line. You should see `origin git@github.com:username/filename.git`. If you don't type in `git remote rm origin` to delete the connection and try the steps again.
+***A:*** Type in `git remote -v` into the command line. You should see `origin git@github.com:username/filename.git`. If you don't type in `git remote rm origin` to delete the connection and try the steps again.
 
 ##### Congratulations! You now know how to make a file and connect it to Github. 🔥
 
@@ -148,7 +148,7 @@ In every directory, there should be a README.md file, so that's what you will be
 ![clone](cloneordownload.png)
 4. copy and paste the link
 5. Go to your workspace
-6. type in `cd ~/workspace`
+6. Type in `cd ~/workspace`
 7. On the command line, type in `git clone <https-link-to-someones-repository>`  
 
 ##### Congrats! You now have someone elses repository in your local workspace! 🔥
@@ -161,8 +161,8 @@ In every directory, there should be a README.md file, so that's what you will be
 ![fork](fork.png)
 3. Now click on "Clone or download"  
 ![clone](cloneordownload.png)  
-4. copy and paste the link
-5. type in `git clone <https-link-to-someones-repository>` in the command line.
+4. Copy and paste the link
+5. Type in `git clone <https-link-to-someones-repository>` in the command line.
 6. Work on the repository
 7. `git add` , then `git commit -m` and `git push`. 
 
